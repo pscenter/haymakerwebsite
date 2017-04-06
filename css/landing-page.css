@@ -10,9 +10,12 @@
         }
      .coloroverride {
              color: red !important;
-             font-weight: bold;
         }
 
+     .white {
+            color: whitesmoke !important;
+        }
+            
     @font-face {
         font-family: renogare;
         src: url(/fonts/renogare.ttf);
