@@ -4,8 +4,13 @@
     }
 
     .blackcolor {
-            background-color: black;
-            color: red;
+            background-color: black !important;
+            color: red !important;
+            font-weight: bold;
+        }
+     .coloroverride {
+             color: red !important;
+             font-weight: bold;
         }
 
     @font-face {
