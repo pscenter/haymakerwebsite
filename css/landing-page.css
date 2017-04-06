@@ -2,7 +2,12 @@
         font-family: bastardBold;
         src: url(/fonts/bastard-bold.ttf);
     }
-    
+
+    .blackcolor {
+            background-color: black;
+            color: red;
+        }
+
     @font-face {
         font-family: renogare;
         src: url(/fonts/renogare.ttf);
