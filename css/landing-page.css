@@ -2,20 +2,22 @@
         font-family: bastardBold;
         src: url(/fonts/bastard-bold.ttf);
     }
-
-    .blackcolor {
-            background-color: black !important;
-            color: red !important;
-            font-weight: bold;
-        }
-     .coloroverride {
-             color: red !important;
-        }
-
-     .white {
-            color: whitesmoke !important;
-        }
-            
+    
+    .padHeader {
+        padding-top: 50px;
+    }
+    
+    .whiteHeader {
+        font-size: 1em;
+        color: whitesmoke;
+    }
+    
+    .white {
+        color: whitesmoke !important;
+        font-size: .75em;
+        text-align: center;
+    }
+    
     @font-face {
         font-family: renogare;
         src: url(/fonts/renogare.ttf);
@@ -28,7 +30,7 @@
     #brand-1 {
         padding-left: 10%;
         padding-top: 40%;
-        font-family: Times, serif !important;
+        font-family: renogare, Times, serif !important;
         font-size: 3em;
         font-weight: 600;
         color: whitesmoke;
@@ -36,7 +38,7 @@
     
     #brand-3 {
         padding-top: 40%;
-        font-family: Times, serif !important;
+        font-family: renogare, Times, serif !important;
         font-size: 3em;
         font-weight: 600;
         color: whitesmoke;
@@ -60,9 +62,9 @@
     }
     
     .bastard {
-        font-family: 'Oswald', sans-serif !important;
-        font-weight: 700;
-        font-size: 50px;
+        font-family: renogare, sans-serif !important;
+        font-weight: 800 !important;
+        font-size: 2em !important;
     }
     /*Theme CSS & Modifications*/
     
@@ -78,19 +80,13 @@
     }
     
     .intro-header {
-        padding-top: 65px;
+        padding-top: 50px;
         /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-        padding-bottom: 50px;
+        padding-bottom: 20px;
         text-align: center;
         color: #e50000;
         background: url(../img/intro-bg.jpg) no-repeat center center;
         background-size: cover;
-    }
-    
-    .intro-message {
-        position: relative;
-        padding-top: 20%;
-        padding-bottom: 20%;
     }
     
     .intro-message>h1 {
